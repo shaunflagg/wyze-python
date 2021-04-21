@@ -20,7 +20,7 @@ def get_object_list(access_token, refresh_token):
 
     payload = {
         "sc": "[sc-alphanumeric]",
-        "sv": "[sv-alphanmueric]",
+        "sv": "[sv-alphanumeric]",
         "app_ver": "com.hualai___2.0.18",
         "ts": current_milli_time(),
         "phone_id": "[phone-uuid4]",
